@@ -1,0 +1,21 @@
+.menu {
+  padding-top: 8px;
+}
+
+.active {
+  background: #a1a1aa;
+}
+
+.item {
+  font-size: 14px;
+  color: white;
+  margin-left: 14px;
+}
+
+.link {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  cursor: pointer;
+}

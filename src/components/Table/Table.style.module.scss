@@ -1,0 +1,53 @@
+.wrapper {
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  height: fit-content;
+
+  &__wrapper {
+    padding: 0 10px;
+  }
+}
+
+.caption {
+  height: 50.5px;
+  border-bottom: 1px solid #414144;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: start;
+
+  &__real {
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+.span {
+  border-right: 1px solid #414144;
+  width: 16em;
+  display: inline-block;
+  padding: 15px;
+}
+
+.thead {
+  color: #a1a1aa;
+  font-size: 14px;
+  height: 42px;
+  border-bottom: 1px solid #414144;
+}
+
+.th {
+  text-align: start;
+}
+
+.row > td,
+th {
+  padding: 0 10px;
+}
+
+.loading {
+  color: white;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 400;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #202124;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: 0;
+  background: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: 0;
+  color: black;
+}
+
+input {
+  border: 0;
+  outline: 0;
+}

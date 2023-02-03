@@ -1,0 +1,44 @@
+.th {
+  text-align: start;
+}
+
+.row {
+  color: #ffffff;
+  height: 60px;
+  border-bottom: 1px solid #414144;
+}
+
+.row>td,
+th {
+  padding: 0 10px;
+}
+
+.child {
+  padding-left: 50px !important;
+}
+
+
+.vertical {
+  height: 45px;
+}
+
+.td {
+  position: relative;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 13%;
+}
+
+.input:not(:last-child()) {
+  margin-right: 24px;
+}
+
+.label {
+  width: 100%;
+  margin-right: 20px;
+}

@@ -1,0 +1,26 @@
+@use 'variables';
+
+.wrapper {
+  min-width: 15em;
+  height: 100vh;
+  border: 1px solid #414144;
+  border-top: none;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #414144;
+  padding: 8px 0 8px 20px;
+}
+
+.title {
+  font-size: 14px;
+  color: variables.$base-grey;
+}
+
+.subTitle {
+  font-size: 10px;
+  color: variables.$base-grey;
+}

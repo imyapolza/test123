@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  margin-left: 31px;
+}
+
+.wrapper :first-child {
+  margin-right: 28px;
+}
+
+.link {
+  color: #a1a1aa;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.active {
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+}
